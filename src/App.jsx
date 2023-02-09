@@ -48,7 +48,7 @@ function App() {
         <div className="info-offline">file Deleted! </div>
       )}
       <hr />
-
+      <h1>There are {Techbooks.length} books:</h1>
       {Techbooks.filter((tcb) => tcb.title.includes("Linux")).map((tb) => (
         <ul key={tb.id}>
           <li>{tb.title}</li>
