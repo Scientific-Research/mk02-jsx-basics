@@ -16,8 +16,18 @@ function App() {
   return (
     <div className="App">
       <h1>{title}</h1>
+
+      {/* Strange if Statement */}
       {userOnline && <div>User is Online!</div>}
-      <p>Test</p>
+      {/* <p>Test</p> */}
+      <hr />
+
+      {/* Ternary  strange if Statement: */}
+      {userOnline ? (
+        <div>User doesn't need to login!</div>
+      ) : (
+        <div>User needs to login</div>
+      )}
     </div>
   );
 }
