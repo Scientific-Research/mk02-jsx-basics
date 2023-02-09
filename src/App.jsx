@@ -23,18 +23,14 @@ if (a === 1 && b === 2) {
 }
 
 const Password = "123";
+
 function App() {
   const [userOnline, setUserOnline] = useState(false);
   const [thePassword, setThePassword] = useState("");
 
   const handleLogin = (e) => {
     e.preventDefault();
-    console.log(thePassword);
-    if (thePassword === Password) {
-      setUserOnline(true);
-      console.log("OK");
-    }
-    setUserOnline(false);
+    thePassword === Password ? setUserOnline(true) : setUserOnline(false);
   };
 
   return (
