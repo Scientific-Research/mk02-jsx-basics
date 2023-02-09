@@ -22,7 +22,7 @@ if (a === 1 && b === 2) {
 }
 
 function App() {
-  const [userOnline, setUserOnline] = useState(false);
+  const [userOnline, setUserOnline] = useState(true);
   return (
     <div className="App">
       <h1>{title}</h1>
@@ -45,6 +45,7 @@ function App() {
       <hr />
       {userOnline && <div>secret password: 345345</div>}
 
+      {userOnline? <div className="info">Information </div> : <div className="info-offline">Information </div>}
       <hr />
     </div>
   );

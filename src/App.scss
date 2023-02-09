@@ -1,10 +1,22 @@
 body {
   background-color: #333;
   color: #ccc;
-  font-family: sans-serif;
+  font-family: ubuntu;
   padding: 0 1rem;
 
   h1 {
     color: orange;
+  }
+
+  .info {
+    color: rgb(230, 98, 22);
+    font-size: 200%;
+    font-weight: bold;
+  }
+
+  .info-offline {
+    color: rgb(58, 221, 43);
+    font-size: 200%;
+    font-weight: bold;
   }
 }
