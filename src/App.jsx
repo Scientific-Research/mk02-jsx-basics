@@ -1,9 +1,10 @@
 import "./App.scss";
 
+const title = "Our JSX Basics Lesson";
 function App() {
   return (
     <div className="App">
-      <h1>JSX Basics</h1>
+      <h1>{title}</h1>
       <p>Test</p>
     </div>
   );
