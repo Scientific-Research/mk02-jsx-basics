@@ -48,8 +48,9 @@ function App() {
         <div className="info-offline">file Deleted! </div>
       )}
       <hr />
+
       {Techbooks.map((tb) => (
-        <ul key={tb.id}>
+        <ul>
           <li>{tb.title}</li>
         </ul>
       ))}

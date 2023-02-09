@@ -21,4 +21,14 @@ body {
     font-weight: bold;
     background-color: aqua;
   }
+
+  ul {
+    li {
+      background-color: rgb(168, 100, 52);
+      color: rgb(35, 57, 87);
+      font-size: larger;
+      font-weight: bold;
+      padding: 1rem;
+    }
+  }
 }
