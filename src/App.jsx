@@ -49,7 +49,7 @@ function App() {
       )}
       <hr />
 
-      {Techbooks.map((tb) => (
+      {Techbooks.filter((tcb) => tcb.title.includes("Linux")).map((tb) => (
         <ul key={tb.id}>
           <li>{tb.title}</li>
         </ul>
