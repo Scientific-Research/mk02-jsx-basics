@@ -1,7 +1,15 @@
 import "./App.scss";
 
 const title = "Our JSX Basics Lesson";
-const userOnline = Number("0");
+// Alle diese drei Sätzte  haben das gleiche Bedeutung!
+// const userOnline = Number(true);
+// const userOnline = Number(1);
+const userOnline = Number("1");
+
+// Alle diese drei Sätzte  haben das gleiche Bedeutung!
+// const userOnline = Number(false);
+// const userOnline = Number(0);
+// const userOnline = Number("0");
 
 const a = 1;
 const b = 2;
