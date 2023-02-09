@@ -1,7 +1,7 @@
 import "./App.scss";
 
 const title = "Our JSX Basics Lesson";
-const userOnline = true;
+const userOnline = Number("0");
 
 const a = 1;
 const b = 2;
@@ -22,7 +22,7 @@ function App() {
       {/* <p>Test</p> */}
       <hr />
 
-      {/* Ternary  strange if Statement: */}
+      {/* Ternary  strange if-else Statement: */}
       {userOnline ? (
         <div>User doesn't need to login!</div>
       ) : (
