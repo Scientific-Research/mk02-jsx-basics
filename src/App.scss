@@ -8,15 +8,17 @@ body {
     color: orange;
   }
 
-  .info {
-    color: rgb(230, 98, 22);
+  .info-online {
+    color: rgb(116, 230, 22);
     font-size: 200%;
     font-weight: bold;
+    background-color: rgb(105, 105, 5);
   }
 
   .info-offline {
-    color: rgb(58, 221, 43);
+    color: rgb(221, 43, 43);
     font-size: 200%;
     font-weight: bold;
+    background-color: aqua;
   }
 }

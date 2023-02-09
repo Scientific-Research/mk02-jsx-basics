@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.scss";
+import Techbooks from "./data/techbooks.json";
 
 const title = "Our JSX Basics Lesson";
 // Alle diese drei Sätzte  haben das gleiche Bedeutung!
@@ -45,8 +46,13 @@ function App() {
       <hr />
       {userOnline && <div>secret password: 345345</div>}
 
-      {userOnline? <div className="info">Information </div> : <div className="info-offline">Information </div>}
+      {userOnline ? (
+        <div className="info-online">file Exists! </div>
+      ) : (
+        <div className="info-offline">file Deleted! </div>
+      )}
       <hr />
+      
     </div>
   );
 }
