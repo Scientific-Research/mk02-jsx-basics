@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.scss";
 import Techbooks from "./data/techbooks.json";
 
-const title = "Our JSX Basics Lesson 324123412";
+const title = "Our JSX Basics Lesson";
 // Alle diese drei Sätzte  haben das gleiche Bedeutung!
 // const userOnline = Number(true);
 // const userOnline = Number(1);
